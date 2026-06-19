@@ -80,6 +80,34 @@ php artisan key:generate
 
 ```
 
+-  Ingrese al administrador de [PHP MyAdmin](http://localhost/phpmyadmin/) y cree una nueva base de datos, el nombre es opcional, pero por defecto nombrarla **dbsistemaventas**
+
+  
+
+-  Correr la migraciones del proyecto
+
+```bash
+
+php artisan migrate
+
+```
+
+-  Ejecute los seeders, esto creará un usuario administrador, puede revisar las credenciales en el archivo (**database/seeders/UserSeeder**)
+
+```bash
+
+php artisan db:seed
+
+```
+
+-  Corra comando para crear el enlace simbólico
+
+```bash
+
+php artisan storage:link
+
+```
+
   -  Ejecute el proyecto (en otra terminal)
 
 ```bash
