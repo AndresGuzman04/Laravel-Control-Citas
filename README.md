@@ -108,7 +108,7 @@ php artisan storage:link
 
 ```
 
-  -  Ejecute el proyecto (en otra terminal)
+  -  Ejecute el proyecto
 
 ```bash
 
